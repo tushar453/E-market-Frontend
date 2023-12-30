@@ -1,0 +1,79 @@
+/* Basic CSS Reset */
+
+
+
+
+.container-7 {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input[type="text"],
+  textarea {
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  .product-details {
+    margin-top: 20px;
+  }
+  
+  .product {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .payment-option {
+    margin-top: 20px;
+  }
+  
+  .checkout-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 600px) {
+    .container-7 {
+      padding: 10px;
+    }
+    input[type="text"],
+    textarea {
+      width: 100%;
+    }
+  }
+  
+
+.productimg img{
+  height: 10rem;
+  width: 10rem;
+}

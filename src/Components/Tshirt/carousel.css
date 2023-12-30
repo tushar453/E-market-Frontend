@@ -1,0 +1,12 @@
+.carousel {
+  width: 390px;
+  overflow: hidden;
+  padding: 10px;
+}
+.product-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 0 40px;
+  gap: 56px;
+}

@@ -1,0 +1,54 @@
+/* popupMenu.css */
+.popup-menu {
+  padding: 24px;
+  display: none;
+  position: absolute;
+  width: 105%;
+  height: 636px;
+  top: 0px;
+  left: 0;
+  background-color: #fffbf1;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: inherit;
+}
+.logout-btn {
+  position: absolute;
+  bottom: 70px;
+  left: 50px;
+}
+
+.popup-menu.open {
+  display: block;
+}
+
+.popup-menu a {
+  display: block;
+  color: #3e494b;
+  font-family: Titillium Web;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.popup-menu button {
+  color: #555;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.link-container {
+  margin-left: 24px;
+  gap: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}

@@ -1,0 +1,53 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* overflow-y: auto; */
+  padding-top: 32px;
+  padding-left: 8px;
+  padding-right: 8px;
+  width: 280px;
+  height: 785px;
+  flex-shrink: 0;
+  background: #424d51;
+  color: #fffbf1;
+  font-family: Titillium Web;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.count{
+  
+ 
+  position: absolute;
+  margin-left: 18px;
+  margin-top: -15px;
+  font-size: 17px;
+  color: red;
+  
+}
+
+
+.logo-container {
+  color: #fffbf1;
+  height: 163px;
+
+  font-family: Gill Sans MT;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.a {
+  color: #fffbf1;
+  font-family: Titillium Web;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.account2 {
+  font-size: 24px;
+  height: 50px;
+}

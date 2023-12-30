@@ -1,0 +1,58 @@
+
+
+
+
+
+
+
+  
+  .address-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .address {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 42px;
+    margin-bottom: 29px;
+    width: 50%;
+  }
+  
+  .address h2 {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #555;
+    color: #ffff;
+  }
+  
+  .container-3 {
+    width: 100%;
+    /* display: flex; */
+    flex-wrap: wrap;
+    /* padding: 100px; */
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width:600px) {
+    .address {
+        border: 1px solid #ccc;
+        background-color: #fff;
+        padding: 42px;
+        margin-bottom: 29px;
+        width: 100%;
+      }
+}

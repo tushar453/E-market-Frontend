@@ -1,0 +1,23 @@
+.review-pop {
+  position: relative;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: var(--secondary-text-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  top: -80px;
+}
+.productprofile {
+  width: 210px;
+  height: 220px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+}
+.closebtn {
+  position: absolute;
+  right: 25px;
+  top: 20px;
+}

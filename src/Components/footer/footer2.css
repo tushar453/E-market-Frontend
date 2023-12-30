@@ -1,0 +1,70 @@
+.footer-container {
+  display: none;
+}
+@media screen and (min-width: 400px) {
+  .footer-container {
+    overflow-x: hidden;
+    padding: 32px 64px 0 64px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    background-color: #c0c0c0;
+  }
+  .footer2 {
+    display: flex;
+    justify-content: space-between;
+    border: 1px;
+    border-radius: 10px 10px 0 0;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    height: 286px;
+    width: 100%;
+  }
+  .footer-item {
+    margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 8px;
+  }
+  .item-heading {
+    color: #000;
+    font-family: Titillium Web;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+  }
+  .link {
+    color: #4c5c5f;
+    font-family: Gill Sans MT;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+  }
+  .line {
+    height: 1px;
+    margin: 0 5px;
+  }
+  .copyright2 {
+    text-align: left;
+    color: #4c5c5f;
+    margin-top: 16px;
+    margin-left: 24px;
+    margin-bottom: 16px;
+  }
+  .row {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  .copyright2 {
+    text-align: left;
+    margin-top: 16px;
+    margin-left: 24px;
+  }
+}

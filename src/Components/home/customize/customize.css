@@ -1,0 +1,120 @@
+.upload-box {
+  width: 312px;
+  height: 334px;
+  border-radius: 8px;
+  border: 1px solid #424d51;
+}
+.content {
+  font-family: Titillium Web;
+  padding: 0 20px;
+}
+.upload-image {
+  background: #98c1d9;
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+  border: 0px;
+  font-family: Gill Sans MT;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fffbf1;
+}
+.feature-text {
+  margin: 0;
+  width: 45px;
+  height: 99px;
+  color: var(--secondary-text-color);
+  font-family: Titillium Web;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.product-des {
+  gap: 8px;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+}
+.description {
+  margin-left: 8px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: left;
+  color: var(--secondary-text-color);
+}
+.message {
+  text-align: left;
+  width: 299px;
+  font-family: Titillium Web;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: var(--secondary-text-color);
+}
+.note {
+  font-family: Gill Sans MT;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--secondary-text-color);
+}
+.rating {
+  font-family: Titillium Web;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: var(--secondary-text-color);
+}
+.bar-container {
+  width: 111px;
+  border: 0.5px solid var(--secondary-text-color);
+  border-radius: 2px;
+}
+.loading-bar {
+  height: 8px;
+  background-color: #424d51;
+}
+.rating-no {
+  font-family: Titillium Web;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4c5c5fcc;
+}
+.star-rate {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.review {
+  margin-top: 8px;
+  width: 279px;
+  height: 32px;
+  border-radius: 8px;
+  font-family: Gill Sans MT;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+}
+.btn-container2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+  grid-template-rows: repeat(2, 80px);
+  gap: 32px;
+  margin-bottom: 32px;
+}

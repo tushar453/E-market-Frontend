@@ -1,0 +1,135 @@
+.upload-box2 {
+  width: 144px;
+  height: 154px;
+  border-radius: 8px;
+  border: 1px solid #424d51;
+}
+.upload-box3 {
+  width: 105px;
+  height: 100px;
+  border-radius: 8px;
+  border: 1px solid #424d51;
+}
+.upload-image2 {
+  background: #98c1d9;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  border: 0px;
+  font-family: Gill Sans MT;
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 9px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fffbf1;
+}
+.upload-image3 {
+  background: #98c1d9;
+  width: 25px;
+  height: 25px;
+  border-radius: 1px;
+  border: 0px;
+  font-family: Gill Sans MT;
+  font-size: 6px;
+  font-weight: 400;
+  line-height: 6px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fffbf1;
+}
+.comment-box {
+  background-color: inherit;
+  padding: 5px;
+  width: 311px;
+  height: 100px;
+  flex-shrink: 0;
+  text-align: left;
+  color: rgba(76, 92, 95, 0.8);
+  font-family: Titillium Web;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 8px;
+  border: 1px solid #4c5c5f;
+}
+.field {
+  background-color: inherit;
+  width: 311px;
+  height: 29px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #4c5c5f;
+  margin: 2px;
+}
+.btn1 {
+  font-size: 24px;
+  margin: 8px;
+  padding: 2px;
+  color: inherit;
+}
+.review-box {
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.uplaod-section {
+  margin: 8px;
+}
+.uploads {
+  text-align: left;
+}
+.upload-items {
+  width: 46px;
+  height: 53px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #4c5c5f;
+}
+.reviews {
+  text-align: left;
+  padding: 8px;
+  align-items: start;
+  width: 319px;
+  height: 157px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  background: #fffbf1;
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+.icon-box {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #455356;
+}
+.profile-icon {
+  position: absolute;
+  top: 12px;
+  left: 5px;
+}
+.verified {
+  padding-left: 8px;
+  width: 38px;
+  height: 12px;
+
+  border-radius: 3px;
+  background: #455356;
+  color: #fffbf1;
+  font-family: Titillium Web;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.option {
+  background-color: #424d51;
+  border-radius: 4px;
+  color: #fff;
+  padding: 5px 32px;
+  font-family: Titillium Web;
+}
