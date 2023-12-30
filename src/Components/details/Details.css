@@ -49,10 +49,15 @@
   
 .heart-btn{
   position: absolute;
+  margin-left: 30px;
+  margin-top: -40px;
+  /* align-items: flex-end; 
+  alib*/
   /* top: 20%;
   left: 4%; */
-  margin-left: 230px;
-  margin-top: -330px;
+  /* margin-left: -900px; */
+  /* margin-top: -330px; */
+  /* align-self: flex-start; */
   /* margin */
   transform: translate(-50%,-50%);
 }

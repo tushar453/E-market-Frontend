@@ -114,6 +114,7 @@ const Details = () => {
             </div>
           </div>
         </div>
+     
         <div class="product-info">
           <h1>{product.name}</h1>
           <p>Description of the product goes here.</p>
