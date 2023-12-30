@@ -8,7 +8,7 @@ import saved from "../../Icons/savedadd.png";
 import info from "../../Icons/about.png";
 import review from "../../Icons/review.png";
 import logo from "../../Icons/balaji cover logo.png";
-import user from "../../Icons/userprofile.png";
+import userss from "../../Icons/userprofile.png";
 import dropdown from "../../Icons/down.png";
 import React,{useEffect,useState} from 'react'
 import axios from 'axios'
@@ -107,7 +107,7 @@ setCart(data)
         <div class="line" style={{ backgroundColor: "#fffbf1" }}></div>
         <div className=" account2 roww" style={{ marginLeft: "16px" }}>
           {" "}
-          <img src={user} height={30} width={30} alt="product" />
+          <img src={userss} height={30} width={30} alt="product" />
           {users ? (<>
              <p>{users.name}</p>
 

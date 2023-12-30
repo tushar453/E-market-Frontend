@@ -50,20 +50,23 @@ function Home() {
                
               {user ? (<>
                 <a className="login" >
-                <button className="btn">{user.name}  </button>
+                {user.isAdmin ? ( <button className="btn" > <Link to={"/admin"}> {user.name} </Link>  </button>) : ( <button className="btn">  {user.name}  </button>) }
+
+               
               </a> 
                 <a  class="dropdown-item"   href='#' onClick={logout}>logout</a>
-
-
-
-
-
             </>) :(<>
+             
             
+
               <a className="login" href="/signin">
                 <button className="btn"> Login </button>
               </a> 
             </>) } 
+
+
+            
+
 
 
 

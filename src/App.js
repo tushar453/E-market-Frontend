@@ -55,6 +55,7 @@ import Buy from "./Components/BuyingScreen/Buy";
 import Addressmain from "./Components/Saved Addresses/Addressmain";
 import Purchases from "./Components/Purchases/Purchases";
 import Bagcheckout from "./Components/bagcheckout/Bagcheckout";
+import Admin from "./Components/Admin/Admin";
 
 function App() {
   return (
@@ -84,6 +85,10 @@ function App() {
           <Route
             path="/home/customize/image/details-frame"
             element={<Detailsframe />}
+          />
+            <Route
+            path="/admin"
+            element={<Admin />}
           />
           <Route
             path="/home/customize/image/details-mugs"
