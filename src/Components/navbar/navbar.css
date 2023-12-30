@@ -12,7 +12,7 @@
   color: red;
   
 }
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   body {
     margin: 0;
     padding: 0;
@@ -33,7 +33,7 @@
     align-items: center;
     color: #fffbf1;
     background-color: #424d51;
-    width: 410px;
+    width: 578px;
     height: 72px;
     font-weight: 400;
   }

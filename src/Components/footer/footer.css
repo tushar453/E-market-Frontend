@@ -3,10 +3,10 @@
     display: none;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .footer {
     margin-top: 72px;
-    width: 410px;
+    width: 571px;
     height: 640px;
     top: 678px;
     border: 1px;
