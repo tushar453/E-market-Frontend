@@ -90,7 +90,7 @@ setloading(false);
         <p>Total Items: {carts.length}<span class="total-items"></span></p>
         <p>Total: ${calculateTotal()}<span class="total-price"></span></p>
      
- <a    ><button class="checkout-btn"   >  Proceed to Checkout</button></a>
+ {/* <a    ><button class="checkout-btn"   >  Proceed to Checkout</button></a> */}
       </div>}
      
     </div>
