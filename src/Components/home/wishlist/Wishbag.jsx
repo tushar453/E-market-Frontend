@@ -10,7 +10,7 @@ const Wishbag = ({wish}) => {
       
       console.log(wid);
       
-      await axios.delete(`https://emarketbackendd.onrender.com/${wid}`).then((res)=>{
+      await axios.delete(`https://emarketbackendd.onrender.com/delete/${wid}`).then((res)=>{
           const da  =  res.data;
           console.log(da);
           setCarts(da);
@@ -35,7 +35,7 @@ const Wishbag = ({wish}) => {
       };
       console.log(cartdetails);
       await axios
-        .post("http://127.0.0.1:4000/addtocartfromwish", cartdetails)
+        .post("https://emarketbackendd.onrender.com/addtocartfromwish", cartdetails)
         .then((res) => {
           const da = res.data;
 
