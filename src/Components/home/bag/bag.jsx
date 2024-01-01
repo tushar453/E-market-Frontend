@@ -63,37 +63,55 @@ setloading(false);
 //   // console.log(details);
 // }
   return (
-    <div>
-      <p className="top roww">
+//     <div>
+//       <p className="top roww">
+//         <a href="/">Home</a>
+//         <img src={dash} alt="product" height={12} width={12} />
+//         <a href="/signin">Bag</a>
+//       </p>
+//       <hr />
+//      {carts.length<1 && <h1>Nothing To Show In Cart</h1>}
+//       <div className="container-2">
+//         {loading ? (
+//           <h1>login to Continue</h1>
+//         ) : (
+//           carts.map((cart) => {
+//             return (
+//               <div className="box">
+//                 <Bagcontent path="/cart" cart={cart} />
+//               </div>
+//             );
+//           })
+//         )}
+//       </div>
+
+//       {carts.length>0 &&  <div class="cart-summary">
+//         <h2>Cart Summary</h2>
+//         <p>Total Items: {carts.length}<span class="total-items"></span></p>
+//         <p>Total: ${calculateTotal()}<span class="total-price"></span></p>
+     
+//  <a    ><button class="checkout-btn"   >  Proceed to Checkout</button></a>
+//       </div>}
+     
+//     </div>
+
+<>
+<p className="top roww">
         <a href="/">Home</a>
-        <img src={dash} alt="product" height={12} width={12} />
-        <a href="/signin">Bag</a>
+        <img src={dash} alt="product" height={8} width={8} />
+        Cart
       </p>
       <hr />
-     {carts.length<1 && <h1>Nothing To Show In Cart</h1>}
-      <div className="container-2">
-        {loading ? (
-          <h1>login to Continue</h1>
-        ) : (
-          carts.map((cart) => {
-            return (
-              <div className="box">
-                <Bagcontent path="/cart" cart={cart} />
-              </div>
-            );
-          })
-        )}
-      </div>
+<div className="navbar-bag">
+<p><a href="#" className="active">BAG</a></p>
+<p>-------------</p>
+<p> <a href="#">ADDRESS</a></p>
+<p>-------------</p>
+<p> <a href="#">PAYMENT</a></p>
+</div>
 
-      {carts.length>0 &&  <div class="cart-summary">
-        <h2>Cart Summary</h2>
-        <p>Total Items: {carts.length}<span class="total-items"></span></p>
-        <p>Total: ${calculateTotal()}<span class="total-price"></span></p>
-     
- {/* <a    ><button class="checkout-btn"   >  Proceed to Checkout</button></a> */}
-      </div>}
-     
-    </div>
+
+</>
   );
 };
 
