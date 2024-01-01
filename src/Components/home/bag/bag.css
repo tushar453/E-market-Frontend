@@ -95,16 +95,17 @@ main {
   /* width: 100%; */
   /* border: 1px solid red; */
   /* margin: auto; */
+  color: #696B79;
   margin-left: auto;
 }
 
 .navbar-bag p {
-  color: #696B79;
+  /* color: #696B79; */
   /* color: #20BD99;
   border-bottom: 2px solid #20BD99; */
 }
 
- .active{
+ .active a{
   color: #20BD99;
   border-bottom: 2px solid #20BD99;
 }

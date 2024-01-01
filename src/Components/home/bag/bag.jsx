@@ -119,11 +119,11 @@ buttons.forEach((button) => {
       </p>
       <hr />
 <div className="navbar-bag">
-<p><a href="#" className="coustom-button">BAG</a></p>
+<p  className="coustom-button"><a href="#" >BAG</a></p>
 <p>-------------</p>
-<p> <a href="#" className="coustom-button">ADDRESS</a></p>
+<p  className="coustom-button"> <a href="#" >ADDRESS</a></p>
 <p>-------------</p>
-<p> <a href="#" className="coustom-button">PAYMENT</a></p>
+<p className="coustom-button"> <a href="#" >PAYMENT</a></p>
 </div>
 
 
