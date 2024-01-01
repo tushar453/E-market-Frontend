@@ -29,6 +29,9 @@ setloading(false);
 
 
 
+
+
+
   },[]);
   
 
@@ -62,6 +65,19 @@ setloading(false);
 
 //   // console.log(details);
 // }
+
+
+
+const buttons = document.querySelectorAll('.coustom-button');
+
+buttons.forEach((button) => {
+  button.addEventListener('click', () => {
+    buttons.forEach((btn) => {
+      btn.classList.remove('active');
+    });
+    button.classList.add('active');
+  });
+});
   return (
 //     <div>
 //       <p className="top roww">
@@ -103,11 +119,11 @@ setloading(false);
       </p>
       <hr />
 <div className="navbar-bag">
-<p><a href="#" className="active">BAG</a></p>
+<p><a href="#" className="coustom-button">BAG</a></p>
 <p>-------------</p>
-<p> <a href="#">ADDRESS</a></p>
+<p> <a href="#" className="coustom-button">ADDRESS</a></p>
 <p>-------------</p>
-<p> <a href="#">PAYMENT</a></p>
+<p> <a href="#" className="coustom-button">PAYMENT</a></p>
 </div>
 
 

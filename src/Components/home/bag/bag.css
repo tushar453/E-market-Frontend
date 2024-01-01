@@ -98,13 +98,13 @@ main {
   margin-left: auto;
 }
 
-.navbar-bag p a{
+.navbar-bag p {
   color: #696B79;
   /* color: #20BD99;
   border-bottom: 2px solid #20BD99; */
 }
 
-.navbar-bag p  .active{
+ .active{
   color: #20BD99;
   border-bottom: 2px solid #20BD99;
 }
